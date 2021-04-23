@@ -1,26 +1,22 @@
 header{
-    background-color: greenyellow;
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
 
 nav{
-    background-color: red;
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
 
 main{
-    background-color: white;
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
 
 footer{
-    background-color: blue;
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
