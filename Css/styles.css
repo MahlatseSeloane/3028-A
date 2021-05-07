@@ -21,3 +21,10 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+
+.NavTop{
+    margin-left: auto;
+    margin-right: auto;
+    width:  1024px;
+    background-color: red;
+}
