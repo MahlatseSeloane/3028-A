@@ -72,6 +72,18 @@ h2{
     text-align: left;
     padding-bottom: 60px;
 }
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Georgia','serif';
+    list-style: none;
+}
+
+.nav-button{
+    font-size: 30px;
+    font-family: 'Georgia','serif';
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------FOOTER----------------------------------------------------------------*/
