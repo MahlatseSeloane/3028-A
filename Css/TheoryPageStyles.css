@@ -64,12 +64,15 @@ h4{
 }
 
 .Web-Decisions{
+    display: flex;
+    justify-content: space-around;
     font-family: 'Georgia','serif';
     color: var(--primary-color);
     width: 60%;
     margin: auto;
     text-align: center;
     font-size: 30px;
+    padding: 30px;
 }
 
 .Blog-heading{
@@ -83,11 +86,14 @@ h4{
     font-size: 20px;
 }
 
-.clickable{
+a{
     font-family: 'Georgia','serif';
     color: var(--primary-color);
     font-weight:bold;
     list-style: none;
+}
+
+.clickable{
     font-size: 18px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/

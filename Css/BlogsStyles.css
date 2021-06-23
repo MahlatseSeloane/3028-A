@@ -95,6 +95,7 @@ h3{
     font-weight:bold;
     list-style: none;
     font-size: 30px;
+    padding: 30px;
 }
 
 .nav-button{
@@ -109,6 +110,12 @@ h3{
     width: 65%;
     margin: auto;
     margin-bottom: 30px;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
