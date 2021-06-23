@@ -55,18 +55,14 @@ main{
     line-height: 25px;
 }
 
-.Blog-picture{
-    padding: 30px;
+.all-the-text{
+    padding: 40px;
 }
 
 .Blog-heading{
     font-family: 'Georgia','serif';
     text-align: center;
     font-size: 40px;
-}
-
-.Blog-title, .Blog-preview_text{
-    padding-right: 20px;
 }
 
 .Blog-preview_text{

@@ -55,15 +55,21 @@ main{
     line-height: 25px;
 }
 
-.Blog-picture{
-    padding-right: 30px;
+.all-the-text{
+    padding: 40px;
+}
+
+h4{
+    font-size: 20px;
 }
 
 .Web-Decisions{
+    font-family: 'Georgia','serif';
+    color: var(--primary-color);
     width: 60%;
     margin: auto;
     text-align: center;
-    line-height: 25px;
+    font-size: 30px;
 }
 
 .Blog-heading{
@@ -75,6 +81,14 @@ main{
 .Blog-preview_text{   
     text-align: left;
     font-size: 20px;
+}
+
+.clickable{
+    font-family: 'Georgia','serif';
+    color: var(--primary-color);
+    font-weight:bold;
+    list-style: none;
+    font-size: 18px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 

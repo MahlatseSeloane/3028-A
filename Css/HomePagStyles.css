@@ -32,7 +32,7 @@ nav{
 .nav-links{
     display: flex;
     justify-content: space-around;
-    font-weight:bold;
+    font-weight: bold;
     list-style: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -89,8 +89,8 @@ main{
     margin-bottom: 30px;
 }
 
-.Blog-picture{
-    padding-right: 30px;
+.all-the-text{
+    
 }
 
 .Blog-title, .Blog-preview_text{
@@ -98,14 +98,25 @@ main{
 }
 
 .Blog-preview_text{
-    text-align: left;
     font-size: 20px;
 }
 
+.clickable{
+    font-family: 'Georgia','serif';
+    color: var(--primary-color);
+    font-weight:bold;
+    list-style: none;
+    font-size: 18px;
+}
+
 .View-More{
-    font-size: 40px;
     display: flex;
     justify-content: space-around;
+    font-family: 'Georgia','serif';
+    color: var(--primary-color);
+    font-weight:bold;
+    list-style: none;
+    font-size: 30px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -139,6 +150,10 @@ footer{
     width: 20%;
     margin: auto;
     color: white;
+}
+
+.envelope{
+    color: tomato;
 }
 
 .footer-logo{

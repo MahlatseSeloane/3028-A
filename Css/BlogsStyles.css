@@ -47,10 +47,19 @@ main{
     font-family:'Poppins',sans-serif;
 }
 
-h2{
+h2, h3{
     font-family: 'Georgia','serif';
     text-align: center;
     font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
 }
 
 .blog{
@@ -65,6 +74,12 @@ h2{
     border-right: .5px solid var(--primary-color);
 }
 
+.character-pdf{
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
 .references{
     width: 60%;
     margin: auto;
@@ -77,12 +92,23 @@ h2{
     display: flex;
     justify-content: space-around;
     font-family: 'Georgia','serif';
+    font-weight:bold;
     list-style: none;
+    font-size: 30px;
 }
 
 .nav-button{
-    font-size: 30px;
-    font-family: 'Georgia','serif';
+    color: var(--primary-color);
+}
+
+.wireframes{
+    /*border-top: .5px solid var(--primary-color);
+    border-bottom: .5px solid var(--primary-color);
+    border-left: .5px solid var(--primary-color);
+    border-right: .5px solid var(--primary-color);*/
+    width: 65%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
