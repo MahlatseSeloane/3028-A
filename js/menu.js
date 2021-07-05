@@ -1,9 +1,9 @@
 const MenuData = [   
-    {title: "Home", link: "/index.html"},
-    {title: "Theory", link: "/TheoryPage/TheoryPageIndex.html"},
-    {title: "Creative", link: "/CreativePage/CreativePageIndex.html"}, 
-    {title: "About", link: "/AboutPage/AboutPageIndex.html"},
-    {title: "Contact", link: "/ContactPage/ContactPageIndex.html"}
+    {title: "Home", link: "WSOA3028_1149107/index.html"},
+    {title: "Theory", link: "WSOA3028_1149107/TheoryPage/TheoryPageIndex.html"},
+    {title: "Creative", link: "WSOA3028_1149107/CreativePage/CreativePageIndex.html"}, 
+    {title: "About", link: "WSOA3028_1149107/AboutPage/AboutPageIndex.html"},
+    {title: "Contact", link: "WSOA3028_1149107/ContactPage/ContactPageIndex.html"}
 ]
 
 const SocialMedia = [
