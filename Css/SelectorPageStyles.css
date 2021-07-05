@@ -75,35 +75,100 @@ nav{
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-
 /*-----------------------------------------------------------------MAIN-----------------------------------------------------------------*/
-h2{
-    font-size: 35px;
-    text-align: center;
-}
 
-.About{
+/*------------Theory_Blogs------------*/
+.Theory_Blogs, .Creative_Blogs{
     width: 90%;
     margin: auto;
     text-align: center;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.Blog{
+    margin: 50px;
+    display: flex;
     border: .5px solid var(--primary-color);
     box-shadow: 10px 10px var(--accent-color,#f3e49e);
 }
 
-.About-profile_picture{
-    padding: 30px;
+.Blog-image{
     min-width: 40%;
-    max-height: 350px;
-    min-height: 300px;
+    max-height: 450px;
+    min-height: 400px;
 }
 
-.About-text{
+.Blog-title{
+    font-size: 25px;
+}
+
+.Blog-preview{  
     padding: 20px;
     font-size: 20px;
     font-family:'Poppins',sans-serif;
 }
 
+.Blog-read_more{
+    padding: 5px;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+    border: 1.5px solid var(--primary-color);
+    box-shadow: 10px 10px var(--accent-color,#f3e49e);
+}
+
+.Blog-read_more:hover{
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    background-color: #f3e49e;
+    box-shadow: 3px 3px var(--accent-color,#f3e49e);
+}
+
+.View_More_Blogs-link{
+    padding: 5px;
+    font-size: 30px;
+    transition: ease-out 0.3s;
+    border: 1.5px solid var(--primary-color);
+    box-shadow: 10px 10px var(--accent-color,#f3e49e);
+}
+
+.Web-Decisions{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Character_Development, .Web_Development{
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    border: 1.5px solid var(--primary-color);
+    box-shadow: 10px 10px var(--accent-color,#f3e49e);
+}
+
+.Character_Development-image, .Web_Development-image{
+    padding: 10px;
+    min-width: 40%;
+    max-height: 450px;
+    min-height: 400px;
+}
+
+.Character_Development-link, .Web_Development-link{
+    padding: 5px;
+    font-size: 20px;
+    border: 1.5px solid var(--primary-color);
+    box-shadow: 10px 10px var(--accent-color,#f3e49e);
+}
+
+.Character_Development-link:hover, .Web_Development-link:hover{
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    background-color: #f3e49e;
+    box-shadow: 3px 3px var(--accent-color,#f3e49e);
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------FOOTER----------------------------------------------------------------*/
@@ -163,7 +228,7 @@ footer{
     text-align: center;
  }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
- 
+
 /*----------------------------------------------------------Responsive Design----------------------------------------------------------*/
 @media only screen and (max-width: 1024px) {
     h1{
@@ -343,6 +408,4 @@ footer{
  .nav-active{
      transform: translateX(0%);
  }
-
-
 

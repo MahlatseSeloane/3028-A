@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kgothatso's Adventures</title>
-    <link rel="stylesheet" type="text/css" href="./Css/HomePagStyles.css">
+    <link rel="stylesheet" type="text/css" href="./Css/HomePageStyles.css">
+    <script type="module" src="./js/menu.js"></script>
     
     <meta property="og:url" content="https://mahlatseseloane.github.io/WSOA3028_1149107/">
     <meta property="og:type" content="website">
@@ -17,128 +18,103 @@
 
 <body>
     <header>
-        <h1>
-            <a class="logo" href="#">Kgothatso's Adventures</a>
-        </h1>
+        <section class="Mobile_Navigation">
+            
+        </section>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a class ="nav-link" href="./index.html">Home</a></li>
-                <li><a class ="nav-link" href="./TheoryPage/TheoryPageIndex.html">Theory</a></li>
-                <li><a class ="nav-link" href="./CreativePage/CreativePageIndex.html">Creative</a></li>
-                <li><a class ="nav-link" href="./AboutPage/AboutPageIndex.html">About</a></li>
-                <li><a class ="nav-link" href="./ContactPage/ContactPageIndex.html">Contact</a></li> 
-            </ul>
-        </nav>
+        <nav></nav>
     </header>
 
     <main>
-        <article class="MissionStatement-section">
-            <section class="wrapper">
-                <section class="Intro">
-                    <h3 class="greeting">Hey! My name is Kgothatso Modupe.</h3>
+        <article>
+            <section class="Mission_Statement">
+                <section class="Mission_Statement-text">
+                    <h3 class="Mission_Statement-title">Hey! My name is Kgothatso Modupe.</h3>
                     <p>  
                         I am a 21 years old South African living in Soweto, Johannesburg. I have lived in Soweto 
                         my entire life with my Mom, Dad, and younger brother. I created this blog for me to share my experiences as a young-adult 
-                        girl coming of age. These experiences are filled with feelings of joy, happiness, love as well as self doubt, confusion and 
-                        hopelessness we all experience. I hope you will join me as i embark on this journey of self discovery.
+                        girl coming of age. I hope you will join me as i embark on this journey of self discovery.
                     </p>
+                    
+                    <ul class="Mission_Statement-social_media_icons">
+                        <li><a class ="social_media-icon" href="https://www.gmail.com" target="_blank"><img src="./Images/svgs/envelope-black.svg" width="30" height="30"></a></li>
+                        <li><a class ="social_media-icon" href="https://www.facebook.com" target="_blank"><img src="./Images/svgs/facebook-black.svg" width="30" height="30"></a></li>
+                        <li><a class ="social_media-icon" href="https://www.instagram.com" target="_blank"><img src="./Images/svgs/instagram-white.svg" width="30" height="30"></a></li>
+                        <li><a class ="social_media-icon" href="https://www.twitter.com" target="_blank"><img src="./Images/svgs/twitter-white.svg" width="30" height="30"></a></li>
+                    </ul>
                 </section>
     
-                <img class="profile-picture" src="./Images/Kgothatso.jpg" alt="Wireframe" width="300" height="350">
+                <img class="Mission_Statement-profile_picture" src="./Images/Kgothatso.jpg" alt="Picture of Kgothatso Modupe">
             </section>
         </article>
 
         <article>
-            <h2 class="Blog-heading">The Latest</h2>
+            <section class="Latest_Blogs">
+                <h2>The Latest Blogs</h2>
 
-            <section class="Blogpost">
-                <img class="Blog-picture" src="./Images/ForCreativeBlogs/Blog-1.jpg" alt="Wireframe" width="750" height="400">
+                <section class="Blog"> 
+                    <img class="Blog-image" src="./Images/ForCreativeBlogs/Blog-1.jpg" alt="Picture of the Mandela Bridge and the skyline of Johannesburg on a cloudy day">
 
-                <section class="all-the-text">
-                    <h3 class="Blog-title">The time I got robbed on the Mandela Bridge (Part 1)</h3>
-                    <section class="Blog-info">
-                        <p>Author: Kgothatso Modupe</p>
-                        <time class="dt-published" datetime="2021-06-21">21/06/2021</time>
+                    <section class="Blog-text">
+                        <h3 class="Blog-title">The time I got robbed on the Mandela Bridge (Part 1)</h3>
+                        <section class="Blog-author_info">
+                            <p>Author: Kgothatso Modupe</p>
+                            <time class="dt-published" datetime="2021-06-21">21/06/2021</time>
+                        </section>
+                        
+                        <p class="Blog-preview">
+                            When you are new to Johannesburg, usually people will tell you to be vigilant and 
+                            open your eyes because if you don't, there is...
+                        </p>
+
+                        <a class="Blog-read_more" href="./CreativePage/CreativeBlogs/Blog_1/blog_1.html">Continue Reading</a>
                     </section>
+                </section>
+
+                <section class="Blog">
+                    <img class="Blog-image" src="./Images/ForCreativeBlogs/Blog-2.jpg" alt="">
                     
-                    <p class="Blog-preview_text">
-                        When you are new to Johannesburg, usually people will tell you to be vigilant and 
-                        open your eyes because if you don't, there is...
-                    </p>
+                    <section class="Blog-text">
+                        <h3 class="Blog-title">Things I wish I knew before I started to university</h3>
+                        <section class="Blog-author_info">
+                            <p>Author: Kgothatso Modupe</p>
+                            <time class="dt-published" datetime="2021-04-16">16/04/2021</time>
+                        </section>
 
-                    <a class="clickable" href="./CreativePage/CreativeBlogs/Blog_1/blog_1.html">Continue Reading</a>
-                </section>
-            </section>
+                        <p class="Blog-preview">
+                            With 3 years of university currently under my belt I’ve had plenty of learning opportunities 
+                            and times to reflect on my experience.
+                        </p>
 
-            <section class="Blogpost">
-                <img class="Blog-picture" src="./Images/ForCreativeBlogs/Blog-2.jpg" alt="Wireframe" width="450" height="400">
-                
-                <section class="all-the-text">
-                    <h3 class="Blog-title">A few things I wish I knew before I started to university</h3>
-                    <section class="Blog-info">
-                        <p>Author: Kgothatso Modupe</p>
-                        <time class="dt-published" datetime="2021-04-16">16/04/2021</time>
+                        <a class="Blog-read_more" href="./CreativePage/CreativeBlogs/Blog_2/blog_2.html">Continue Reading</a>
                     </section>
-
-                    <p class="Blog-preview_text">
-                        With 3 years of university currently under my belt I’ve had plenty of learning opportunities 
-                        and times to reflect on my experience.
-                    </p>
-
-                    <a class="clickable" href="./CreativePage/CreativeBlogs/Blog_2/blog_2.html">Continue Reading</a>
                 </section>
-            </section>
 
-            <section class="Blogpost">
-                <img class="Blog-picture" src="./Images/ForCreativeBlogs/Blog-1.jpg" alt="Wireframe" width="525" height="400">
+                <section class="Blog">
+                    <img class="Blog-image" src="./Images/ForCreativeBlogs/Blog-1.jpg" alt="Picture of the Mandela Bridge and the skyline of Johannesburg on a cloudy day">
 
-                <section class="all-the-text">
-                    <h3 class="Blog-title">The time I got robbed on the Mandela Bridge (Part 2)</h3>
-                    <section class="Blog-info">
-                        <p>Author: Kgothatso Modupe</p>
-                        <time class="dt-published" datetime="2021-06-22">22/06/2021</time>
+                    <section class="Blog-text">
+                        <h3 class="Blog-title">The time I got robbed on the Mandela Bridge (Part 2)</h3>
+                        <section class="Blog-author_info">
+                            <p>Author: Kgothatso Modupe</p>
+                            <time class="dt-published" datetime="2021-06-22">22/06/2021</time>
+                        </section>
+
+                        <p class="Blog-preview">
+                            When you are new to Johannesburg, usually people will tell you to be vigilant and 
+                            open your eyes because if you don't, there is...
+                        </p>
+
+                        <a class="Blog-read_more" href="./CreativePage/CreativeBlogs/Blog_3/blog_3.html">Continue Reading</a>
                     </section>
-
-                    <p class="Blog-preview_text">
-                        Today I’m going to continue with the story of when I got robbed on the Mandela Bridge.
-                    </p>
-
-                    <a class="clickable" href="./CreativePage/CreativeBlogs/Blog_3/blog_3.html">Continue Reading</a>
                 </section>
-            </section>
 
-            <a class="View-More" href="./CreativePage/CreativePageIndex.html">View All Blogs</a>
+                <a class="View_More_Blogs-link" href="./CreativePage/CreativePageIndex.html">View All Blogs</a>
+            </section>
         </article>
     </main>
 
-    <footer>
-        <section class="sitemap-section">
-            <ul class="sitemap-links">
-                <li><a class ="sitemap-link" href="./index.html">Home</a></li>
-                <li><a class ="sitemap-link" href="./TheoryPage/TheoryPageIndex.html">Theory</a></li>
-                <li><a class ="sitemap-link" href="./CreativePage/CreativePageIndex.html">Creative</a></li>
-                <li><a class ="sitemap-link" href="./AboutPage/AboutPageIndex.html">About</a></li>
-                <li><a class ="sitemap-link" href="./ContactPage/ContactPageIndex.html">Contact</a></li> 
-            </ul>
-        </section>
-
-        <ul>
-            </li>
-                <section class="logo-section">
-                    <h3><a class="footer-logo" href="#">Kgothatso's Adventures</a></h3>
-                    <ul class="social-media-links">
-                        <li><a class="envelope"><img src="./Images/svgs/envelope-square-solid.svg" alt="Wireframe" width="30" height="30"></a></li>
-                        <li><a><img src="./Images/svgs/phone-solid.svg" alt="Wireframe" width="30" height="30" color="white"></a></li>
-                        <li><a><img src="./Images/instagram-brands.svg" alt="Wireframe" width="30" height="30"></a></li>
-                        <li><a><img src="./Images/svgs/twitter-square-brands.svg" alt="Wireframe" width="30" height="30"></a></li>
-                    </ul>
-                </section>
-            </li>
-        </ul>
-        
-	    <p class="copyright">Copyright © 2021 All Rights Reserved Kgothatso's Adventures</p>
-    </footer>
+    <footer></footer>
 </body>
 
 </html>
